@@ -81,7 +81,7 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
   }
 
 
-  const MAX_REQUESTS_PER_MONTH = 30;
+  const MAX_REQUESTS_PER_MONTH = 3;
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   let requestCounter = { count: 0, lastTime: 0 };
